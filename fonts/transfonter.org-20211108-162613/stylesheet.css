@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Scania Sans CY Headline';
+    src: url('ScaniaSansCYHeadline-Regular.woff2') format('woff2'),
+        url('ScaniaSansCYHeadline-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('LabGrotesque-Medium.woff2') format('woff2'),
+        url('LabGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('LabGrotesque-Light.woff2') format('woff2'),
+        url('LabGrotesque-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('LabGrotesque-Regular.woff2') format('woff2'),
+        url('LabGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('LabGrotesque-Thin.woff2') format('woff2'),
+        url('LabGrotesque-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
