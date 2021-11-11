@@ -777,7 +777,7 @@ body {
 		padding: 35px 0px;
 	}
 	.firstscreen__decor {
-		padding: 150px 0px 50px 0px;
+		padding: 150px 0px calc(50px + 173 * ((100vw - 320px) / (1213.98 - 320))) 0px;
 	}
 	.firstscreen__content {
 		flex: 1 1 auto;
@@ -953,7 +953,7 @@ body {
 		display: none;
 	}
 	.firstscreen__decor {
-		padding: 146px 0px 50px 0px;
+		padding: 146px 0px calc(50px + 173 * ((100vw - 320px) / (1213.98 - 320))) 0px;
 	}
 	.firstscreen__items {
 		column-gap: 0;
