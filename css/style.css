@@ -718,7 +718,7 @@ body {
 }
 @media (max-width: 1213.98px) {
 	.firstscreen__decor {
-		padding: 0px 0px calc(50px + 173 * ((100vw - 320px) / (1213.98 - 320))) 0px;
+		padding: 213px 0px calc(50px + 173 * ((100vw - 320px) / (1213.98 - 320))) 0px;
 	}
 	.page__benefits {
 		padding: 0px 0px calc(50px + 49 * ((100vw - 320px) / (1213.98 - 320))) 0px;
