@@ -1923,7 +1923,7 @@ body {
 		padding: 15px 30px;
 	}
 	.main-footer__column:not(:last-child) {
-		margin: 0px 0px 45px 0px;
+		margin: 0px 0px calc(20px + 25 * ((100vw - 320px) / (1213.98 - 320))) 0px;
 	}
 	.bottom-footer__body {
 		flex-wrap: wrap;
