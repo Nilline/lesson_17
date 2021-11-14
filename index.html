@@ -356,7 +356,7 @@
 							Получите каталог с моделями и ценами на всю нашу продукцию
 						</p>
 						<div class="info__link-block">
-							<a href="#" class="info__link button"><span class="info__link-text">Получить каталог!</span></a>
+							<a href="#" class="info__link button"><span class="button__text">Получить каталог!</span></a>
 						</div>
 					</div>
 				</div>
@@ -407,7 +407,7 @@
 					<div class="about__header header-titles">
 						<h2 class="header-titles__title">вы автор вашего камина</h2>
 					</div>
-					<form action="#" method="post" class="about__row about__row_form form-about">
+					<form action="#" method="get" class="about__row about__row_form form-about">
 						<div class="form-about__column form-about__column_form-left">
 							<div class="form-about__body">
 								<div class="form-about__image form-about__image_ibg">
@@ -417,18 +417,18 @@
 						</div>
 						<div class="form-about__column form-about__column_form-right">
 							<div class="form-about__row">
-								<h5 class="form-about__title">Выберите длину</h5>
+								<h5 class="form-about__title title-about">Выберите длину</h5>
 								<div class="form-about__range-block">
 									<span class="form-about__value">0.5&#160;м</span>
 									<input type="range" name="length" value="" class="form-about__input">
 									<span class="form-about__value">10&#160;м</span>
 								</div>
 							</div>
-							<div class="form-about__row">
-								<h5 class="form-about__title">Лицевая панель</h5>
+							<div class="form-about__row form-about__row_flex-media">
+								<h5 class="form-about__title title-about">Лицевая панель</h5>
 								<div class="form-about__slider">
 									<div class="form-about__slide">
-										<div class="form-about__slider-image">
+										<div class="form-about__slider-image form-about__slider-image_ibg">
 											<img src="img/about/rend.jpg" alt="Картинка" class="form-about__slider-img">
 										</div>
 									</div>
@@ -443,53 +443,76 @@
 								</div>
 							</div>
 							<div class="form-about__row form-about__row_flex">
-								<h5 class="form-about__title">дополнительные функции</h5>
+								<h5 class="form-about__title title-about">дополнительные функции</h5>
 								<div class="form-about__ckeckbox-block">
-									<input id="checkbox-1" type="checkbox" name="Protection against children" value=""
+									<input id="checkbox-1" type="checkbox" name="Protection against children" value="yes"
 										class="form-about__checkbox">
 									<label for="checkbox-1" class="form-about__label">Защита от детей</label>
 								</div>
 								<div class="form-about__ckeckbox-block">
-									<input id="checkbox-2" type="checkbox" name="Protection against children" value=""
+									<input id="checkbox-2" type="checkbox" name="Protection against children" value="yes"
 										class="form-about__checkbox">
 									<label for="checkbox-2" class="form-about__label">Защита от детей</label>
 								</div>
 								<div class="form-about__ckeckbox-block">
-									<input id="checkbox-3" type="checkbox" name="Wi-Fi" value="" class="form-about__checkbox">
+									<input id="checkbox-3" type="checkbox" name="Wi-Fi" value="yes" class="form-about__checkbox">
 									<label for="checkbox-3" class="form-about__label">Wi-Fi</label>
 								</div>
 								<div class="form-about__ckeckbox-block">
-									<input id="checkbox-4" type="checkbox" name="Wi-Fi" value="" class="form-about__checkbox">
+									<input id="checkbox-4" type="checkbox" name="Wi-Fi" value="yes" class="form-about__checkbox">
 									<label for="checkbox-4" class="form-about__label">Wi-Fi</label>
 								</div>
 								<div class="form-about__ckeckbox-block">
-									<input id="checkbox-5" type="checkbox" name="Protection against children" value=""
+									<input id="checkbox-5" type="checkbox" name="Protection against children" value="yes"
 										class="form-about__checkbox">
 									<label for="checkbox-5" class="form-about__label">Защита от детей</label>
 								</div>
 								<div class="form-about__ckeckbox-block">
-									<input id="checkbox-6" type="checkbox" name="Protection against children" value=""
+									<input id="checkbox-6" type="checkbox" name="Protection against children" value="yes"
 										class="form-about__checkbox">
 									<label for="checkbox-6" class="form-about__label">Защита от детей</label>
 								</div>
 								<div class="form-about__ckeckbox-block">
-									<input id="checkbox-7" type="checkbox" name="Wi-Fi" value="" class="form-about__checkbox">
+									<input id="checkbox-7" type="checkbox" name="Wi-Fi" value="yes" class="form-about__checkbox">
 									<label for="checkbox-7" class="form-about__label">Wi-Fi</label>
 								</div>
 								<div class="form-about__ckeckbox-block">
-									<input id="checkbox-8" type="checkbox" name="Wi-Fi" value="" class="form-about__checkbox">
+									<input id="checkbox-8" type="checkbox" name="Wi-Fi" value="yes" class="form-about__checkbox">
 									<label for="checkbox-8" class="form-about__label">Wi-Fi</label>
 								</div>
 							</div>
 						</div>
-						<div class="about__bottom bottom-about">
-							<div class="bottom-about__length">
-								<p class="bottom-about__name">длина</p>
-								<p class="bottom-about__value">6.5 м</p>
+						<div class="form-about__column form-about__column_bottom bottom-about">
+							<div class="bottom-about__column bottom-about__column_form-left">
+								<div class="bottom-about__length">
+									<p class="bottom-about__title title-about">длина</p>
+									<p class="bottom-about__value">6.5 м</p>
+								</div>
+								<div class="bottom-about__panel">
+									<p class="bottom-about__title title-about">лицевая панель</p>
+									<div class="bottom-about__colors">
+										<div class="bottom-about__radio-block">
+											<input checked id="color-brown" autocomplete="off" type="radio" name="color"
+												value="brown" class="bottom-about__radio">
+											<label for="color-brown" class="bottom-about__color bottom-about__color_brown"></label>
+										</div>
+										<div class="bottom-about__radio-block">
+											<input id="color-peachpuff" autocomplete="off" type="radio" name="color" value="brown"
+												class="bottom-about__radio">
+											<label for="color-peachpuff"
+												class="bottom-about__color bottom-about__color_peachpuff"></label>
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="bottom-about__panel">
-								<p class="bottom-about__name">лицевая панель</p>
-								<span class="bottom-about__color"></span>
+							<div class="bottom-about__column bottom-about__column_form-right">
+								<div class="bottom-about__price">
+									<p class="bottom-about__title title-about">стоимость</p>
+									<p class="bottom-about__price-value">99 000</p>
+								</div>
+								<div class="bottom-about__btn-block">
+									<button type="submit" class="bottom-about__button button"><span class="button__text">Оставить заявку</span></button>
+								</div>
 							</div>
 						</div>
 					</form>
